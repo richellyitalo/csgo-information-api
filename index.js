@@ -19,6 +19,12 @@ var corsOptions = {
     'https://richellyitalo.github.io',
     'https://richellyitalo.com.br',
   ],
+  // allowedHeaders: [
+  //   'x-total'
+  // ],
+  exposedHeaders: [
+    'x-total'
+  ]
 };
 app.use(cors(corsOptions));
 

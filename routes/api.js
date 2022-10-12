@@ -16,6 +16,10 @@ router.get('/teams:query?', async function (req, res, next) {
       },
     });
     res.setHeader('x-total', response.headers['x-total']);
+    res.set('x-total', response.headers['x-total']);
+    res.set('test', 'oi');
+    res.set('Content-Type', 'application/json');
+    res.header('oi', 'oi');
     res.send(response.data);
   } catch (error) {
     res.status(error.response.status);
