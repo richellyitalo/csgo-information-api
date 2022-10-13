@@ -18,6 +18,7 @@ var corsOptions = {
     'http://localhost:3000',
     'https://richellyitalo.github.io',
     'https://richellyitalo.com.br',
+    'https://csgo-information.vercel.app',
   ],
   // allowedHeaders: [
   //   'x-total'
