@@ -19,7 +19,7 @@ var corsOptions = {
     'https://richellyitalo.github.io',
     'https://richellyitalo.com.br',
     'https://csgo-information.vercel.app',
-    'https://csgo-information-richellyitalo.vercel.app/'
+    'https://csgo-information-richellyitalo.vercel.app'
   ],
   // allowedHeaders: [
   //   'x-total'
