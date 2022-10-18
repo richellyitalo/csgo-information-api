@@ -15,6 +15,7 @@ var app = express();
 
 var corsOptions = {
   origin: [
+    'http://localhost:4242',
     'http://localhost:3000',
     'https://richellyitalo.github.io',
     'https://richellyitalo.com.br',
@@ -41,7 +42,6 @@ app.use(express.urlencoded({ extended: false }));
 // app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-// app.use('/users', usersRouter);
 app.use('/api', apiRouter);
 
 // catch 404 and forward to error handler
